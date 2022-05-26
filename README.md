@@ -4,8 +4,8 @@
 
 <p align="center">
 
-<img src=./prints_da_tela/imagem_final.jpg> <br />
+<img src=./prints_da_tela/imagem_inicial.jpg> <br />
 
-<img src=./prints_de_tela/imagem_intermediaria.jpg> <br /> 
+<img src=./prints_da_tela/imagem_intermediaria.jpg> <br /> 
  
-<img src=./prints_de_tela/imagem_final.jpg> <br />
+<img src=./prints_da_tela/imagem_final.jpg> <br />
