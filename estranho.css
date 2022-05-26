@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background-image: url(./imagem/backgrond2.jpeg);
+    width: 100vw;
+    height:100vh;
+    background-size: cover;
+}
+
+
+.imagem2{
+    width: 200px;
+    height: 320px;
+    background-image: url(./imagem/estranho_3.png);
+    background-size:cover;
+    position: absolute;
+    top:60%;  
+    right: 40%; 
+    animation: estranhoAnimation 5s ease infinite;  
+}
+
+.logo{
+    width: 800px;
+    height: 350px;
+    background-image: url(./imagem/logo3.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    position: absolute;
+    top: 2vh;  
+    left: 2%; 
+    animation: logoAnimation 5s ease infinite;
+}
+
+.delay{
+    animation-delay: 3s;
+}
+
+.texto{
+    color: #e7eeee;
+    font-style: oblique;
+    position: absolute;
+    align-self:flex-end;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    top: 45vh;  
+    left: 20%;
+    animation: textoAnimation 5s ease infinite;  
+}
+
+
+@keyframes textoAnimation{
+    0%{
+        top: 360px;
+        left: 0;
+    }
+    25%{
+        top: 360px;
+        left: 5;
+    }
+
+    50%{
+        top: 360px;
+        left: 10;
+    }
+
+    75%{
+        top: 360px;
+        left: 15;
+    }
+    100%{
+        top: 360px;
+        left: 20;
+    }
+}
+
+@keyframes estranhoAnimation {
+
+    0%{
+        width: 0;
+        height: 0;
+        top:80%;
+        right: 50%;   
+    }
+
+    25%{
+        
+        width: 30;
+        height: 30;  
+    }
+
+    50%{
+        
+        width: 50;
+        height: 50;    
+    }
+
+    75%{
+        
+        width: 70;
+        height: 70;    
+    }
+
+    100%{
+        top:60%;
+        width: 200;
+        height: 80;
+    }
+    
+}
+
+@keyframes logoAnimation {
+
+    0%{ 
+        width: 0;
+        height: 0;  
+        /* padding: 20px; */
+    }
+
+    25%{
+        width: 30;
+        height: 30;  
+    }
+
+    50%{
+        width: 50;
+        height: 50;    
+    }
+
+    75%{
+        width: 70;
+        height: 70;    
+    }
+
+    100%{
+        width: 800;
+        height: 320;
+    }
+    
+}
+
