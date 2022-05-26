@@ -1,6 +1,4 @@
-# Simulação de pagina de lançamento do filme da MARVEL  
-
-# com áudio da musica tema do filme Os Vingadores de fundo
+# Simulação de pagina de lançamento do filme da MARVEL com áudio da musica tema do filme Os Vingadores de fundo
 
 ## LANÇAMENTO DO FILME Dr EESTRANHO NO MULTIVERSO DA LOUCURA
 
